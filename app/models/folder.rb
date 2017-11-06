@@ -5,5 +5,6 @@ class Folder < ApplicationRecord
   belongs_to :parent_folder, class_name: "Folder", optional: true
   has_many :notes
 
+  validates :title, presence: true
 
 end
