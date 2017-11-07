@@ -1,2 +1,8 @@
-class FoldersController < JSONAPI::ResourceController 
+class FoldersController < JSONAPI::ResourceController
+
+  
+
+
+
+
 end

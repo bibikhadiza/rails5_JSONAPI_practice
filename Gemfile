@@ -6,10 +6,10 @@ git_source(:github) do |repo_name|
 end
 
 
-gem 'jsonapi-resources'
 gem 'rails', '~> 5.0.6'
 gem 'faker'
-
+gem 'pry'
+gem 'jsonapi-resources'
 gem 'sqlite3'
 gem 'puma', '~> 3.0'
 

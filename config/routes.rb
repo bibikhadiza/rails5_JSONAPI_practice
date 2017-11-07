@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     jsonapi_resources :notes, only: [:show]
   end
 
-  jsonapi_resources :folders, only: [:create], \
-                    constraints: ->(request) {
-                    request.query_parameters[:path].present? }
+  jsonapi_resources :folders, only: [:create]
+
+  root to: "folders#index"
 end
